@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  font-family: monospace;
+  background-color: black;
+  color: aliceblue;
+}
+
+.main{
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.container{
+  background-color: aliceblue;
+  color: black;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+justify-content: center;
+}
+
+button{
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 40px;
+}
