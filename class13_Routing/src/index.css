@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  monospace;
+}
+
+.navigation{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.navigation .main{
+  font-size: 15px;
+}
+
+.navigation .input{
+  border: none;
+  font-size: 25px;
+}
+
+
+.navigation .links{
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.mens{
+  font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ok{
+  font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produts{
+   font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homes{
+   font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abouts{
+   font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random{
+   font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
